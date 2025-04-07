@@ -5,7 +5,7 @@ class Program
 
     static void Main()
     {
-        // Carrega dados salvos do arquivo e insere na árvore
+        // Carrega dados salvos do arquivo e insere na árvore binaria
         var livros = Persistencia.Carregar();
         foreach (var livro in livros)
             arvore.Inserir(livro);
